@@ -894,7 +894,7 @@ button {
 
 .move-area{/*normally use body*/
   width: 100vw;
-  height: 300vh;
+  height: 100vh;
   position: absolute;
 }
 
