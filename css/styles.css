@@ -886,14 +886,12 @@ button {
 }
 }
 
-
-
 /* Mozilla support */
 
 @-moz-document url-prefix() {
 #eyes {
     position: absolute;
-    right: 165px;
+    right: 148px;
     top: 154px;
 }
 }
