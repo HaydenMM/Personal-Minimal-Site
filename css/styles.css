@@ -830,7 +830,7 @@ button {
 
 .logo {
     height: 100px;
-    width: 100px;
+    width: 350px;
     z-index: 2;
     top: 0
 }
@@ -849,8 +849,8 @@ button {
   position: relative;
   display: inline-block;
   border-radius: 50%;
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   background: #222;
 }
 
@@ -858,8 +858,8 @@ button {
   position: absolute;
   bottom: 17px;
   right: 10px;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   background: #fff;
   border-radius: 50%;
   content: " ";
@@ -868,7 +868,7 @@ button {
 .logo img {
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
-    width: 41px
+    width: 250px
 }
 
 .logo:hover img {
@@ -891,7 +891,7 @@ button {
 }
 
 .person {
-    max-width: 500px;
+    max-width: 400px;
     float: right;
 }
 
