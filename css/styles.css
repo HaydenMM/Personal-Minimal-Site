@@ -886,7 +886,7 @@ button {
 @supports (-moz-appearance:none) {
 #eyes {
     position: absolute;
-    right: 165px;
+    right: 148px;
     top: 154px;
 }
 }
