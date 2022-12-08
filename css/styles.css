@@ -891,7 +891,7 @@ button {
 @-moz-document url-prefix() {
 #eyes {
     position: absolute;
-    right: 148px;
+    right: 165px;
     top: 154px;
 }
 }
