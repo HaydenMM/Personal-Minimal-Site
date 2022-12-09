@@ -1351,6 +1351,12 @@ button {
     .slider {
         padding: 100px 0 40px
     }
+    .person {
+        display:none;
+    }
+    #eyes {
+        display:none;
+    }
 }
 
 .modal {
