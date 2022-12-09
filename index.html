@@ -213,6 +213,19 @@
            scrollTop: $("#skills").offset().top
         }, 1000);
      });
+
+  // add in OS based styles
+  //Windows
+  if (navigator.appVersion.indexOf("Win") != -1){
+    document.getElementById('eyes').style.right = "165px";
+  }
+  //Mac
+  else if (navigator.appVersion.indexOf("Mac") != -1){
+    document.getElementById('eyes').style.right = "148px";
+  }
+
+
+
 </script>
 
 </body>
