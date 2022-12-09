@@ -222,16 +222,19 @@
   // Opera 8.0+
   var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
 
+  // Firefox 1.0+
+  var isFirefox = typeof InstallTrigger !== 'undefined';
+
   //Windows
   if (navigator.appVersion.indexOf("Win") != -1){
-    if (isChrome == true){
-      document.getElementById('eyes').style.right = "148px";
+    if (isFirefox == true){
+      document.getElementById('eyes').style.right = "165px";
     }
     else if (isOpera == true){
       document.getElementById('eyes').style.right = "148px";
     }
     else {
-      document.getElementById('eyes').style.right = "165px";
+      document.getElementById('eyes').style.right = "148px";
     }
   }
 
