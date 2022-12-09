@@ -215,10 +215,26 @@
      });
 
   // add in OS based styles
+
+  // Chrome 1 - 79
+  var isChrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
+
+  // Opera 8.0+
+  var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+
   //Windows
   if (navigator.appVersion.indexOf("Win") != -1){
-    document.getElementById('eyes').style.right = "165px";
+    if (isChrome == true){
+      document.getElementById('eyes').style.right = "148px";
+    }
+    else if (isOpera == true){
+      document.getElementById('eyes').style.right = "148px";
+    }
+    else {
+      document.getElementById('eyes').style.right = "165px";
+    }
   }
+
   //Mac
   else if (navigator.appVersion.indexOf("Mac") != -1){
     document.getElementById('eyes').style.right = "148px";
